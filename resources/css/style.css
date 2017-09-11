@@ -5,7 +5,7 @@ html {
 }
 
 .site-container {
-  max-width: 960px;
+  width: 960px;
   margin: 0 auto;
 }
 
@@ -52,10 +52,13 @@ nav {
   padding-right: 2rem;
 }
 
+.menu-button {
+  display: none;
+}
+
 .tagline {
   background-color: white;
   display: flex;
-  width: 65%;
   margin-top: 10rem;
   margin-left: 356px;
 }
@@ -137,4 +140,108 @@ nav {
  padding-left: 1rem;
 }
 
-/* TABLET SCREEN /
+/* TABLET SCREEN */
+@media only screen and (max-width: 1024px) {
+  nav {
+    height: 22rem;
+  }
+
+  .banner {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .tagline {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .tagline p {
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+}
+
+/* MOBILE VERSION */
+@media only screen and (max-width: 470px) {
+  nav {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+.site-container {
+  width: 470px;
+}
+
+.banner {
+  width: 100%;
+  margin-top: 0;
+}
+
+.tagline {
+  margin-top: 9rem;
+  margin-left: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.tagline p {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem auto;
+}
+
+.menu ul {
+  display: none;
+}
+
+.menu-button {
+  display: flex;
+  color: white;
+  padding-right: 2rem;
+}
+
+.logo span {
+  display: none;
+}
+
+.infographics {
+  flex-direction: column;
+  margin: 3.77rem 0rem;
+  align-items: center;
+}
+
+.icon p {
+  font-size: 0.77rem;
+}
+
+#ruler,
+#paper {
+  padding-right: 0;
+}
+
+.philosophy {
+  flex-direction: column;
+  align-items: center;
+}
+
+.descriptions {
+  margin-right: 0;
+  width:100%;
+}
+
+.description h2 {
+  width:100%;
+  text-align: center;
+  padding-left: 0;
+}
+
+#Appointments {
+  margin-top: 4rem;
+}
+
+.descriptions p {
+  font-size: 0.77rem;
+  margin-left: 0.5rem;
+}
+}
