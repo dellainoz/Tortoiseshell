@@ -145,8 +145,12 @@ nav {
 
 /* TABLET SCREEN */
 @media only screen and (max-width: 1024px) {
-  nav {
+  header {
     height: 22rem;
+  }
+
+  nav {
+    padding-top: 0;
   }
 
   .banner {
