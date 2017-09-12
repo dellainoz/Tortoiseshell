@@ -9,14 +9,17 @@ html {
   margin: 0 auto;
 }
 
-nav {
+header {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   height: 30rem;
   background-size: cover;
 }
 
+nav {
+  padding-top: 1rem;
+}
+
 .banner {
-  margin-top: 1rem;
   background-color: cadetblue;
   display: flex;
   justify-content: space-between;
